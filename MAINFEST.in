@@ -1,0 +1,3 @@
+include README.rst
+#include namesex_light/data/*
+#include namesex_light/model/*
