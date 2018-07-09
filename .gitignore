@@ -1,6 +1,9 @@
 # Compiled python modules.
 *.pyc
 
+#backup file
+*~
+
 # Setuptools distribution folder.
 /dist/
 
@@ -9,3 +12,12 @@
 
 # Python egg metadata, regenerated from source files by setuptools.
 /*.egg-info
+
+#utility shell script
+build.sh
+cleanup.sh
+upload_pypi.sh
+upload_testpypi.sh
+
+#memo just for me
+memo.txt

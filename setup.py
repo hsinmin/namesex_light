@@ -8,10 +8,10 @@ def readme():
 
 setup(
   name='namesex_light',
-  packages = ['namesex_light', 'data2'],
-  version = '0.1.3',
+  packages = ['namesex_light'],
+  version = '0.1.6',
   description='A lightweight gender classifier for Chinese given names',
-  author = 'HSIN-MIN LU, YU-LUN LI, CHI-YU LIN',
+  author = 'Hsin-Min Lu, Yu-Lun Li, Chi-Yu Lin',
   author_email = 'luim@ntu.edu.tw',
   include_package_data=True,
   long_description=readme(),
