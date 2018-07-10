@@ -84,7 +84,7 @@ if __name__ == "__main__":
     mode = "explore"
 
     #load data
-    f = open('namesex_data_v2.csv', 'r', newline='', encoding = 'utf8')
+    f = open('/service/ana/namesex1_exp/namesex_data_v2.csv', 'r', newline='', encoding = 'utf8')
     mydata = csv.DictReader(f)
     sexlist = []
     namelist = []
