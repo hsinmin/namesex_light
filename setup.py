@@ -9,7 +9,7 @@ def readme():
 setup(
   name='namesex_light',
   packages = ['namesex_light'],
-  version = '0.2.0',
+  version = '0.2.1',
   description='A lightweight gender classifier for Chinese given names',
   author = 'Hsin-Min Lu, Yu-Lun Li, Chi-Yu Lin',
   author_email = 'luim@ntu.edu.tw',
@@ -48,6 +48,6 @@ setup(
   #      'testdata': ['data/testdata.csv'],
   #      'model': ['model/*'],
   #},
-  #url = 'https://github.com/yulun0528/namesex',
+  url = 'https://github.com/hsinmin/namesex_light',
   #download_url = 'https://github.com/yulun0528/namesex/archive/2.5.tar.gz'
 )
