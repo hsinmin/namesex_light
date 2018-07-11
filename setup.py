@@ -9,7 +9,7 @@ def readme():
 setup(
   name='namesex_light',
   packages = ['namesex_light'],
-  version = '0.1.6',
+  version = '0.2.0',
   description='A lightweight gender classifier for Chinese given names',
   author = 'Hsin-Min Lu, Yu-Lun Li, Chi-Yu Lin',
   author_email = 'luim@ntu.edu.tw',
@@ -21,7 +21,7 @@ setup(
         #   3 - Alpha
         #   4 - Beta
         #   5 - Production/Stable
-        'Development Status :: 3 - Alpha',
+        'Development Status :: 4 - Beta',
 
         # Indicate who your project is intended for
         'Intended Audience :: Science/Research',

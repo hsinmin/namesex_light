@@ -1,7 +1,9 @@
 namesex_light
 -------------
 
-Namesex_light is a lighweight package that predicts the gender tendency of a Chinese given name. This module comes with a L2 regularized logistic regression trained on 10,730 Chinese given names (in traditional Chinese) with reliable gender lables collected from public data. The predict() function takes a list of names and output predicted gender tendency (1 for male and 0 for female) or probability of being a male name.
+Namesex_light is a lighweight package that predicts the gender tendency of Chinese given names. This module comes with a L2 regularized logistic regression trained on 10,730 Chinese given names (in traditional Chinese) with reliable gender lables collected from public data. The predict() function takes a list of names and output predicted gender tendency (1 for male and 0 for female) or probability of being a male name. Namesex_light has a sister project, namesex, that performs similar tasks with higher accuracy.
+
+Additional information about namesex and namesex_light can be found `in another document (in Chinese) <https://github.com/hsinmin/namesex/blob/master/vignettee_namesex_exp1.ipynb>`_.
 
 The prediction performance evaluated by ten-fold cross validation is:
 
